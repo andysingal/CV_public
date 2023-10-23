@@ -1,0 +1,180 @@
+{
+    "name": "epicrealism",
+    "path": "models/sd/epicrealism_naturalSinRC1VAE.safetensors",
+    "vae_path": "",
+    "motion_module": "models/motion-module/mm_sd_v15_v2.ckpt",
+    "compile": false,
+    "tensor_interpolation_slerp": true,
+    "seed": [
+        8547953963516854478
+    ],
+    "scheduler": "euler_a",
+    "steps": 20,
+    "guidance_scale": 4.0,
+    "clip_skip": 2,
+    "prompt_fixed_ratio": 0.8,
+    "head_prompt": "polaroid photo, night photo, photo of 24 y.o beautiful woman, thick, bokeh, motion blur, (blank tanktop), (black shorts)",
+    "prompt_map": {
+      "0":  "smile standing,",
+      "32":  "(((walking))),",
+      "64":  "(((running))),wide angle lens, fish eye effect",
+      "96":  "(((sitting))),"
+    },
+    "tail_prompt": "",
+    "n_prompt": [
+        "easynegative, verybadimagenegative_v13, cartoon, painting, illustration, (worst quality, low quality, normal quality:2), (watermark), immature,"
+    ],
+    "is_single_prompt_mode": false,
+    "lora_map": {
+        "lora/add_detail.safetensors" : 1.0
+    },
+    "ip_adapter_map": {     
+        "enable": true,
+        "input_image_dir": "ip_adapter_image/test",
+        "save_input_image": true,
+        "scale": 0.1,
+        "is_plus_face": true,
+        "is_plus": true
+    },
+    "motion_lora_map": {},
+    "controlnet_map": {     
+        "input_image_dir" : "controlnet_image/test00",  
+        "max_samples_on_vram" : 200,  
+        "max_models_on_vram" : 3,       
+        "save_detectmap" : true,       
+        "preprocess_on_gpu": true,     
+        "is_loop": true,               
+      
+        "controlnet_tile":{   
+          "enable": false,             
+          "use_preprocessor":true,     
+          "preprocessor":{    
+            "type" : "tile_resample",
+            "param":{
+              "down_sampling_rate":2.0
+            }
+          },
+          "guess_mode":false,
+          "controlnet_conditioning_scale": 1.0,   
+          "control_guidance_start": 0.0,     
+          "control_guidance_end": 1.0,      
+          "control_scale_list":[1]   
+        },                                             
+        "controlnet_ip2p":{
+          "enable": false,
+          "use_preprocessor":true,
+          "guess_mode":false,
+          "controlnet_conditioning_scale": 1.0,
+          "control_guidance_start": 0.0,
+          "control_guidance_end": 1.0,
+          "control_scale_list":[0.5,0.4,0.3,0.2,0.1]
+        },
+        "controlnet_canny":{
+          "enable": false,
+          "use_preprocessor":true,
+          "guess_mode":false,
+          "controlnet_conditioning_scale": 1.0,
+          "control_guidance_start": 0.0,
+          "control_guidance_end": 1.0,
+          "control_scale_list":[0.5,0.4,0.3,0.2,0.1]
+        },
+        "controlnet_depth":{
+          "enable": false,
+          "use_preprocessor":true,
+          "guess_mode":false,
+          "controlnet_conditioning_scale": 1.0,
+          "control_guidance_start": 0.0,
+          "control_guidance_end": 1.0,
+          "control_scale_list":[0.5,0.4,0.3,0.2,0.1]
+        },
+        "controlnet_lineart":{
+          "enable": false,
+          "use_preprocessor":true,
+          "guess_mode":false,
+          "controlnet_conditioning_scale": 1.0,
+          "control_guidance_start": 0.0,
+          "control_guidance_end": 1.0,
+          "control_scale_list":[0.5,0.4,0.3,0.2,0.1]
+        },
+        "controlnet_openpose":{
+          "enable": true,
+          "use_preprocessor":true,
+          "guess_mode":false,
+          "controlnet_conditioning_scale": 1.0,
+          "control_guidance_start": 0.0,
+          "control_guidance_end": 1.0,
+          "control_scale_list":[0.5,0.4,0.3,0.2,0.1]
+        },
+        "controlnet_softedge":{
+          "enable": true,
+          "use_preprocessor":true,
+          "preprocessor":{
+            "type" : "softedge_pidsafe",
+            "param":{
+            }
+          },
+          "guess_mode":false,
+          "controlnet_conditioning_scale": 1.0,
+          "control_guidance_start": 0.0,
+          "control_guidance_end": 1.0,
+          "control_scale_list":[0.5,0.4,0.3,0.2,0.1]
+        },
+        "controlnet_ref": {
+            "enable": false,          
+            "ref_image": "ref_image/ref_sample.png",   
+            "attention_auto_machine_weight": 1.0,
+            "gn_auto_machine_weight": 1.0,
+            "style_fidelity": 0.5,              
+            "reference_attn": true,               
+            "reference_adain": false,
+            "scale_pattern":[0.5]               
+        }                               
+      },
+    "upscale_config": {
+        "scheduler": "ddim",
+        "steps": 20,
+        "strength": 0.5,
+        "guidance_scale": 10,
+        "controlnet_tile": {
+            "enable": true,
+            "controlnet_conditioning_scale": 1.0,
+            "guess_mode": false,
+            "control_guidance_start": 0.0,
+            "control_guidance_end": 1.0
+        },
+        "controlnet_line_anime": {
+            "enable": false,
+            "controlnet_conditioning_scale": 1.0,
+            "guess_mode": false,
+            "control_guidance_start": 0.0,
+            "control_guidance_end": 1.0
+        },
+        "controlnet_ip2p": {
+            "enable": false,
+            "controlnet_conditioning_scale": 0.5,
+            "guess_mode": false,
+            "control_guidance_start": 0.0,
+            "control_guidance_end": 1.0
+        },
+        "controlnet_ref": {
+            "enable": false,
+            "use_frame_as_ref_image": false,
+            "use_1st_frame_as_ref_image": false,
+            "ref_image": "ref_image/path_to_your_ref_img.jpg",
+            "attention_auto_machine_weight": 1.0,
+            "gn_auto_machine_weight": 1.0,
+            "style_fidelity": 0.25,
+            "reference_attn": true,
+            "reference_adain": false
+        }
+    },
+    "stylize_config": {},
+    "output": {
+        "format": "mp4",
+        "fps": 8,
+        "encode_param": {
+            "crf": 10
+        }
+    },
+    "result": {}
+}
