@@ -11,3 +11,6 @@ YOLO (You Only Look Once) is a family of real-time object detection algorithms. 
 
 <strong>DeepSORT</strong>:
 DeepSORT is a tracking algorithm, and it stands for "Deep Simple Online and Realtime Tracking." It is not an object detection algorithm but a tracking algorithm. Once you've detected objects in an image or video frame using an object detection model like YOLO, DeepSORT can be used to track these objects over time. It assigns unique IDs to objects, maintains their tracks, and predicts the positions of objects in subsequent frames. It helps to associate objects detected in one frame with objects detected in the next frame, enabling you to track objects as they move through the scene.
+
+
+https://github.com/amrzv/awesome-colab-notebooks
