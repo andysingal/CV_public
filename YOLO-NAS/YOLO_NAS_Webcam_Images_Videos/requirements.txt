@@ -1,0 +1,2 @@
+super-gradients
+opencv-python
