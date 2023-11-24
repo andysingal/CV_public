@@ -18,3 +18,7 @@ https://github.com/amrzv/awesome-colab-notebooks
 Grocery dataset:
 - https://github.com/MathMagicx/JupyterNotebooks/blob/master/ImageRecommenderResnet18/Recommending%20Similar%20Images.ipynb
 - https://github.com/albertferre/shelf-product-identifier/blob/main/notebooks/tsne_embeddings_plot.ipynb 
+
+
+Cool Repo:
+- https://github.com/nateraw/stable-diffusion-videos/tree/main 
