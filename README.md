@@ -21,4 +21,5 @@ Grocery dataset:
 
 
 Cool Repo:
-- https://github.com/nateraw/stable-diffusion-videos/tree/main 
+- https://github.com/nateraw/stable-diffusion-videos/tree/main
+- https://github.com/camenduru/stable-video-diffusion-colab/blob/main/stable_video_diffusion_fp16_colab.ipynb 
