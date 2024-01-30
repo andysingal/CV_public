@@ -24,4 +24,5 @@ Cool Repo:
 - https://github.com/nateraw/stable-diffusion-videos/tree/main
 - https://github.com/camenduru/stable-video-diffusion-colab/blob/main/stable_video_diffusion_fp16_colab.ipynb
 - TensorRT Conversion for YOLOv8 https://github.com/jws92/YOLOv8-TensorRT
-- VQA https://github.com/tezansahu/VQA-With-Multimodal-Transformers/tree/main 
+- VQA https://github.com/tezansahu/VQA-With-Multimodal-Transformers/tree/main
+- multimodal-object-detection https://github.com/eediga/multimodal-object-detection 
