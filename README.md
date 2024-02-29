@@ -28,3 +28,4 @@ Cool Repo:
 - multimodal-object-detection https://github.com/eediga/multimodal-object-detection
 - Roboflow notebooks https://github.com/roboflow/notebooks
 - [Finetune ViT](https://qiita.com/Chamusuke/items/d4d988fa41ebe27585a9)
+- [Hugging Face Transformers and FiftyOne](https://huggingface.co/blog/jamarks/fiftyone-transformers-integration)
