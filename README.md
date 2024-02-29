@@ -32,3 +32,4 @@ Cool Repo:
 
 Demos
 - [Face-Detection-YOLO](https://huggingface.co/spaces/Xenova/video-object-detection)
+- [Image-Search-Engine](https://blog.roboflow.com/image-search-engine-gaudi2/)
