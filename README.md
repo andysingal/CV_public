@@ -26,4 +26,5 @@ Cool Repo:
 - TensorRT Conversion for YOLOv8 https://github.com/jws92/YOLOv8-TensorRT
 - VQA https://github.com/tezansahu/VQA-With-Multimodal-Transformers/tree/main
 - multimodal-object-detection https://github.com/eediga/multimodal-object-detection
-- Roboflow notebooks https://github.com/roboflow/notebooks 
+- Roboflow notebooks https://github.com/roboflow/notebooks
+- [Finetune ViT](https://qiita.com/Chamusuke/items/d4d988fa41ebe27585a9)
