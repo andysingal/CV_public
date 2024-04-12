@@ -1,0 +1,1 @@
+- [OwlViT-SegmentAnything](https://github.com/ngthanhtin/owlvit_segment_anything)
