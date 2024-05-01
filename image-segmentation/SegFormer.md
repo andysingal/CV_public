@@ -23,6 +23,12 @@ SegFormer consists of a hierarchical Transformer encoder, and a lightweight all-
 
 <img width="743" alt="Screenshot 2024-05-01 at 9 07 51 AM" src="https://github.com/andysingal/CV_public/assets/20493493/6460c3cf-64da-4ffe-a4cc-660ee75909e3">
 
+## References
+- [Understanding SegFormer](https://www.ikomia.ai/blog/master-segformer-advanced-semantic-segmentation)
+- [An Efficient Transformers Design for Semantic Segmentation](https://pub.towardsai.net/segformer-an-efficient-transformers-design-for-semantic-segmentation-179d73590d0a)
+  
+
+
 
 Notebooks:
 - [SegFormer](https://medium.com/geekculture/semantic-segmentation-with-segformer-2501543d2be4)
