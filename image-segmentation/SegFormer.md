@@ -34,3 +34,4 @@ Notebooks:
 - [SegFormer](https://medium.com/geekculture/semantic-segmentation-with-segformer-2501543d2be4)
 - [Finetune-SegFormer-Water-Detection](https://www.kaggle.com/code/ekaterinadranitsyna/segformer-water-segmentation-pytorch)
 - [SegFormer-Roboflow](https://github.com/roboflow/notebooks/blob/main/notebooks/train-segformer-segmentation-on-custom-data.ipynb)
+- [Binary Image Segmentation using Segformer](https://www.kaggle.com/code/niyarrbarman/binary-image-segmentation-using-segformer)
