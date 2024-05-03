@@ -14,4 +14,4 @@ In-context learning, on the other hand, is a method in which a model learns a ta
 <img width="926" alt="Screenshot 2024-05-03 at 8 52 31 AM" src="https://github.com/andysingal/CV_public/assets/20493493/2529c028-5274-43bd-a23a-53e789e73233">
 
 Notebook
-
+- [SegGPT](https://github.com/andysingal/CV_public/blob/main/SegGPT/Inference_with_SegGPT_for_one_shot_image_segmentation.ipynb)
