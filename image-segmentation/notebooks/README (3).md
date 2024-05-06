@@ -505,6 +505,9 @@ The output is correct, we expect a mask of spatial shape `image_size // 4` and `
 
 We did it! 🎉🎉🎉
 
+Resources:
+- https://github.com/rulixiang/segformer-pytorch/tree/main 
+
 ## Conclusions
 
 
@@ -512,4 +515,4 @@ In this article we have seen, step by step, how to create SegFormer; a fast and 
 
 Thank you for reading it!
 
-Francesco
+
