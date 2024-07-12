@@ -19,6 +19,9 @@ Grocery dataset:
 - https://github.com/MathMagicx/JupyterNotebooks/blob/master/ImageRecommenderResnet18/Recommending%20Similar%20Images.ipynb
 - https://github.com/albertferre/shelf-product-identifier/blob/main/notebooks/tsne_embeddings_plot.ipynb 
 
+Articles:
+
+[Preference Optimization for Vision Language Models with TRL](https://huggingface.co/blog/dpo_vlm) 
 
 Cool Repo:
 - https://github.com/nateraw/stable-diffusion-videos/tree/main
