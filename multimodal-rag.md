@@ -25,3 +25,6 @@ with torch.no_grad():
 generated_text = processor.batch_decode(generated_ids, skip_special_tokens=True)[0].strip()
 print(generated_text)
 ```
+
+Resources:
+- https://huggingface.co/docs/transformers/main/en/model_doc/llava_next#usage-example 
