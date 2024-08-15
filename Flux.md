@@ -80,4 +80,5 @@ image.save("flux-dev.png")
 Resources:
 - [Flux](https://qiita.com/yamichi77/items/1f12bac65d1584900b35)
 - [Black-forest-flux](https://github.com/black-forest-labs/flux?tab=readme-ov-file)
+- [Flux's ControlNet](https://note.com/npaka/n/n8254fd8d4af1)
 
