@@ -1,0 +1,1 @@
+[Automatic number plate recognition (ANPR) with Yolov9 and EasyOCR](https://github.com/entbappy/Automatic-number-plate-recognition-ANPR-with-Yolov9-and-EasyOCR/blob/main/Automatic_number_plate_recognition_(ANPR)_with_Yolov9_and_EasyOCR.ipynb)
