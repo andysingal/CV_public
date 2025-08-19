@@ -1,0 +1,1 @@
+[Synthetic Data Generation Using the VLM-as-Judge Method](https://pyimagesearch.com/2025/08/18/synthetic-data-generation-using-the-vlm-as-judge-method/)
